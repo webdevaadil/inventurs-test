@@ -72,7 +72,7 @@ const AddTransaction = () => {
         <div className='col-md-4'>   <Dashboard /></div>
 <div className="container col-md-8 ">
 
-        <div className="container py-4 d-flex  align-items-center min-vh-100">
+        <div className="container  py-4 d-flex  align-items-center min-vh-100">
           <div className="card shadow-sm p-4 w-100" style={{ maxWidth: '400px' }}>
             <h2 className="card-title text-center mb-4 h4 text-dark">Add New Transaction</h2>
             {message && (
