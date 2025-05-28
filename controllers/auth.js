@@ -74,6 +74,7 @@ exports.Gettransition = (async (req, res) => {
     }
 
 })
+
 exports.
     Addnewtransition = async (req, res) => {
         const { Type, Category, Amount, Date, Description } = req.body;

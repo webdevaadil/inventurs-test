@@ -68,8 +68,8 @@ const AddTransaction = () => {
   };
   return (
     <>
-    <div className='d-flex  row' style={{Width: "100vw"}}>
-        <div className='col-md-4'>   <Dashboard /></div>
+    <div className='d-flex  row topbox' >
+        <div className='col-md-2'>   <Dashboard /></div>
 <div className="container col-md-8 ">
 
         <div className="container  py-4 d-flex  align-items-center min-vh-100">

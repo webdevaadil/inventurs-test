@@ -50,9 +50,9 @@ const TransactionList = ({ transactions, deleteTransaction }) => {
 
   return (
     <>
-    <div className='d-flex  row'>
-        <div className='col-md-4'>   <Dashboard /></div>
-      <div className="container py-4 col-md-8">
+    <div className='d-flex  row topbox'>
+        <div className='col-md-2'>   <Dashboard /></div>
+      <div className="container py-4 col-md-9">
         <h2 className="text-center mb-4 display-5 fw-bold text-dark">Transaction History</h2>
 
         <div className="card shadow-sm p-4 mb-4">

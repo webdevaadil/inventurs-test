@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
         type: String,
     },
     Amount: {
-        type: String,
+        type: Number,
     },
     Date: {
         type: String,
