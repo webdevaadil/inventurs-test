@@ -6,7 +6,7 @@ const cookieParser = require("cookie-parser");
 
 const bodyParser = require("body-parser");
 connectDB();
-app.use(cookieParser(   ));
+app.use(cookieParser());
 
 app.use(
     cors({

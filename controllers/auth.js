@@ -111,8 +111,8 @@ exports.
 const sendToken = (user, statusCode, res) => {
     const token = user.getSignedToken();
     const options = {
-        // expire: new Date(Date.now + 24 * 60 * 60 * 1000),
-        httpOnly: false,
+        expire: new Date(Date.now + 24 * 60 * 60 * 1000),
+        httpOnly: true,
     };
     res.status(statusCode).cookie("token", token, options).json({
         success: true,

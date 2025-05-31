@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
 
 userSchema.methods.getSignedToken = function () {
     return jwt.sign({ id: this._id }, "aadil", {
-        expiresIn: "1h",
+        expiresIn: "1min",
     });
 };
 const Entries = mongoose.model("Entries", userSchema);
